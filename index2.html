@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fashion</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <script src="https://assets.crowd.aws/crowd-html-elements.js">
+    </script>
+    <crowd-form answer-format="flatten-objects">
+      
+      <div id="page1">
+        Prima pagina del form con info
+      </div>
+
+      <div id="page5" class="form-group" style="display:none;">
+        <table style="margin:auto; border:1px solid black;">
+				<div name="lists" class="grid-rows">
+					<tr>
+						<th>
+							List 1
+						</th>
+						<th>
+							List 2
+						</th>
+					</tr>
+					<tr>
+						<td style="border:1px solid black;">
+							<div class="grid-item">
+								<img id="Topwear1-u" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Topwear2-u" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Topwear3-u" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Topwear4-u" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Topwear5-u" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<br>
+								<img id="Bottomwear1-u" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Bottomwear2-u" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Bottomwear3-u" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Bottomwear4-u" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Bottomwear5-u" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+							</div>
+						</td>
+						<td style="border:1px solid black;">
+							<div class="grid-item">
+								<img id="Topwear1-c" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Topwear2-c" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Topwear3-c" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Topwear4-c" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Topwear5-c" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<br>
+								<img id="Bottomwear1-c" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Bottomwear2-c" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Bottomwear3-c" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Bottomwear4-c" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+								<img id="Bottomwear5-c" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="100">
+							</div>
+						</td>
+					</tr>
+				</div>
+			</table>
+			<div name="questions" style="text-align:center;">
+				<form>
+					<b>Which list has more clothes that you find appealing?</b><br/>
+					<label class="radio-inline">
+						<input type="radio" name="q1" id="q1-1" value="1">
+						List 1
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q1" id="q1-2" value="2" checked="checked">
+						Both lists
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q1" id="q1-3" value="3">
+						List 2
+					</label><br><br/>
+					
+					<b>Which list has more obviously bad clothes recommendations for you?</b><br/>
+					<label class="radio-inline">
+						<input type="radio" name="q2" id="q2-1" value="1">
+						List 1
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q2" id="q2-2" value="2" checked="checked">
+						Both lists
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q2" id="q2-3" value="3">
+						List 2
+					</label><br><br/>
+					
+					<b>Which list has more clothes that are similar to each other?</b><br/>
+					<label class="radio-inline">
+						<input type="radio" name="q3" id="q3-1" value="1">
+						List 1
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q3" id="q3-2" value="2" checked="checked">
+						Both lists
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q3" id="q3-3" value="3">
+						List 2
+					</label><br><br/>
+					
+					<b>Which list has a more varied selection of clothes?</b><br/>
+					<label class="radio-inline">
+						<input type="radio" name="q4" id="q4-1" value="1">
+						List 1
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q4" id="q4-2" value="2" checked="checked">
+						Both lists
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q4" id="q4-3" value="3">
+						List 2
+					</label><br><br/>
+					
+					<b>Which list has clothes that match a wider variety of moods?</b><br/>
+					<label class="radio-inline">
+						<input type="radio" name="q5" id="q5-1" value="1">
+						List 1
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q5" id="q5-2" value="2" checked="checked">
+						Both lists
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q5" id="q5-3" value="3">
+						List 2
+					</label><br><br/>
+					
+					<b>Which list better understands your taste?</b><br/>
+					<label class="radio-inline">
+						<input type="radio" name="q6" id="q6-1" value="1">
+						List 1
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q6" id="q6-2" value="2" checked="checked">
+						Both lists
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q6" id="q6-3" value="3">
+						List 2
+					</label><br><br/>
+					
+					<b>Which list seems more personalized to your clothes ratings?</b><br/>
+					<label class="radio-inline">
+						<input type="radio" name="q7" id="q7-1" value="1">
+						List 1
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q7" id="q7-2" value="2" checked="checked">
+						Both lists
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q7" id="q7-3" value="3">
+						List 2
+					</label><br><br/>
+					
+					<b>Which list would you be more likely to recommend to your friends?</b><br/>
+					<label class="radio-inline">
+						<input type="radio" name="q8" id="q8-1" value="1">
+						List 1
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q8" id="q8-2" value="2" checked="checked">
+						Both lists
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q8" id="q8-3" value="3">
+						List 2
+					</label><br><br/>
+					
+					<b>Which list has more clothes that are familiar to you?</b><br/>
+					<label class="radio-inline">
+						<input type="radio" name="q9" id="q9-1" value="1">
+						List 1
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q9" id="q9-2" value="2" checked="checked">
+						Both lists
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q9" id="q9-3" value="3">
+						List 2
+					</label><br><br/>
+					
+					<b>Which list has more clothes you would not have thought to consider?</b><br/>
+					<label class="radio-inline">
+						<input type="radio" name="q10" id="q10-1" value="1">
+						List 1
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q10" id="q10-2" value="2" checked="checked">
+						Both lists
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="q10" id="q10-3" value="3">
+						List 2
+					</label><br><br/>
+				</form>
+			</div>
+        <br>
+        <button onClick=hide("page5")>
+            Submit
+        </button>
+      </div>
+
+      
+      
+      <div id="page2" class="form-group" style="display:none;">
+        <form class="form-horizontal">
+        <div class="form-group">
+        <label class="col-md-4 control-label" for="gender">Select your gender</label>
+        <div class="col-md-4">
+          <select id="gender" name="gender" class="form-control">
+            <option id="female" value="Female">Female</option>
+            <option id="male" value="Male">Male</option>
+            <option id="other" value="Other">Other</option>
+          </select>
+        </div>
+        </div>
+
+        <!-- Text input-->
+  <div class="form-group">
+  <label class="col-md-4 control-label" for="nationality">Nationality</label>  
+  <div class="col-md-4">
+  <input id="nationality" name="nationality" type="text" placeholder="enter your nationality..." class="form-control input-md-4">
+    </div>
+  </div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="age">Age</label>
+  <div class="col-md-4">
+    <select id="age" name="age" class="form-control">
+      <option value="18-">18-</option>
+      <option value="19-25">19-25</option>
+      <option value="26-40">26-40</option>
+      <option value="41-60">41-60</option>
+      <option value="61+">61+</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="familystatus">Family Status</label>
+  <div class="col-md-4">
+    <select id="familystatus" name="familystatus" class="form-control">
+      <option value="single">Single</option>
+      <option value="engaged">Engaged</option>
+      <option value="marriedordompartnership">Married or domestic partnership</option>
+      <option value="widow">Widow</option>
+      <option value="divorced">Divorced</option>
+      <option value="separated">Separed</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="instruction">Instruction</label>
+  <div class="col-md-4">
+    <select id="instruction" name="instruction" class="form-control">
+      <option value="primary">Primary School</option>
+      <option value="secondary">Lower Secondary School</option>
+      <option value="highschool">High School</option>
+      <option value="technical">Technical Institute</option>
+      <option value="professional">Professional Institute</option>
+      <option value="bachelor">Bachelor's Degree</option>
+      <option value="master">Master's Degree</option>
+      <option value="phd">PhD</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="employment">Employment</label>
+  <div class="col-md-4">
+    <select id="employment" name="employment" class="form-control">
+      <option value="employee">Employee</option>
+      <option value="freelance">Freelance</option>
+      <option value="entrepreneur">Entrepreneur</option>
+      <option value="retired">Retired</option>
+      <option value="student">Student</option>
+      <option value="unemployed">Unemployed</option>
+      <option value="disabled">Disabled or Unable to work</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="income">Income</label>
+  <div class="col-md-4">
+    <select id="income" name="income" class="form-control">
+      <option value="9,999-">9,999€-</option>
+      <option value="10,000-19,999">10,000-19,999€</option>
+      <option value="20,000-29,999">20,000-29,999€</option>
+      <option value="30,000-39,999">30,000-39,999€</option>
+      <option value="40,000-49,999">40,000-49,999€</option>
+      <option value="50,000-59,999">50,000-59,999€</option>
+      <option value="60,000-69,999">60,000-69,999€</option>
+      <option value="70,000-79,999">70,000-79,999€</option>
+      <option value="80,000-89,999">80,000-89,999€</option>
+      <option value="90,000-99,999">90,000-99,999€</option>
+      <option value="100,000+">100,000€+</option>
+    </select>
+  </div>
+</div>
+
+
+</form>
+
+      </div>
+
+      <!--
+      
+      <div id="page4" class="form-group" style="display:none;">
+        <label class="col-md-4 control-label" for="idrandom"><img id="img-1" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="200"><br>Select the top that best matches the chosen bottom</label>
+        <div>
+          <img id="img1-2" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="200"><br>
+          <img id="img2-2" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="200"><br>
+          <img id="img3-2" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="200"><br>
+          <img id="img4-2" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="200"><br>
+        </div>
+        <div class="col-md-4">
+          <select id="question2" name="choosenlowerid" class="form-control">
+            <option id="op1-2" value="op1-2">Option 1</option>
+            <option id="op2-2" value="op2-2">Option 2</option>
+            <option id="op3-2" value="op3-2">Option 3</option>
+            <option id="op4-2" value="op4-2">Option 4</option>
+          </select>
+          <br>
+          <button onClick=hide("page5")>
+            Submit
+          </button>
+        </div>
+      </div>
+      -->
+      
+
+    <div id="page-personality" class="form-group" style="display:none";>
+      <form class="form-horizontal">
+      <b>How much you define yourself:</b><br><br>
+      <div class="form-group">
+        <div class="col-md-4">
+        <label class="col-md-4 control-label" for="open">Close</label>
+        <label class="radio-inline" for="open-1">
+            <input type="radio" name="open" id="open-1" value="1">
+            1
+        </label>
+        <label class="radio-inline" for="open-2">
+            <input type="radio" name="open" id="open-2" value="2">
+            2
+        </label>
+        <label class="radio-inline" for="open-3">
+            <input type="radio" name="open" id="open-3" value="3">
+            3
+        </label>
+        <label class="radio-inline" for="open-4">
+            <input type="radio" name="open" id="open-4" value="4" checked="checked">
+            4
+        </label>
+        <label class="radio-inline" for="open-5">
+            <input type="radio" name="open" id="open-5" value="5">
+            5
+        </label>
+        <label class="radio-inline" for="open-6">
+            <input type="radio" name="open" id="open-6" value="6">
+            6
+        </label>
+        <label class="radio-inline" for="open-7">
+            <input type="radio" name="open" id="open-7" value="7">
+            7
+        </label>
+        <label class="col-md-4 control-label" for="open">Open</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-md-4">
+        <label class="col-md-4 control-label" for="conscientious">Careless</label>
+        <label class="radio-inline" for="conscientious-1">
+            <input type="radio" name="conscientious" id="conscientious-1" value="1">
+            1
+        </label>
+        <label class="radio-inline" for="conscientious-2">
+            <input type="radio" name="conscientious" id="conscientious-2" value="2">
+            2
+        </label>
+        <label class="radio-inline" for="conscientious-3">
+            <input type="radio" name="conscientious" id="conscientious-3" value="3">
+            3
+        </label>
+        <label class="radio-inline" for="conscientious-4">
+            <input type="radio" name="conscientious" id="conscientious-4" value="4" checked="checked">
+            4
+        </label>
+        <label class="radio-inline" for="conscientious-5">
+            <input type="radio" name="conscientious" id="conscientious-5" value="5">
+            5
+        </label>
+        <label class="radio-inline" for="conscientious-6">
+            <input type="radio" name="conscientious" id="conscientious-6" value="6">
+            6
+        </label>
+        <label class="radio-inline" for="conscientious-7">
+            <input type="radio" name="conscientious" id="conscientious-7" value="7">
+            7
+        </label>
+        <label class="col-md-4 control-label" for="conscientious">Conscientious</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-md-4">
+        <label class="col-md-4 control-label" for="agreeable">Disagreeable</label>
+        <label class="radio-inline" for="agreeable-1">
+            <input type="radio" name="agreeable" id="agreeable-1" value="1">
+            1
+        </label>
+        <label class="radio-inline" for="agreeable-2">
+            <input type="radio" name="agreeable" id="agreeable-2" value="2">
+            2
+        </label>
+        <label class="radio-inline" for="agreeable-3">
+            <input type="radio" name="agreeable" id="agreeable-3" value="3">
+            3
+        </label>
+        <label class="radio-inline" for="agreeable-4">
+            <input type="radio" name="agreeable" id="agreeable-4" value="4" checked="checked">
+            4
+        </label>
+        <label class="radio-inline" for="agreeable-5">
+            <input type="radio" name="agreeable" id="agreeable-5" value="5">
+            5
+        </label>
+        <label class="radio-inline" for="agreeable-6">
+            <input type="radio" name="agreeable" id="agreeable-6" value="6">
+            6
+        </label>
+        <label class="radio-inline" for="agreeable-7">
+            <input type="radio" name="agreeable" id="agreeable-7" value="7">
+            7
+        </label>
+        <label class="col-md-4 control-label" for="agreeable">Agreeable</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-md-4">
+        <label class="col-md-4 control-label" for="neurotic">Positive</label>
+        <label class="radio-inline" for="neurotic-1">
+            <input type="radio" name="neurotic" id="neurotic-1" value="1">
+            1
+        </label>
+        <label class="radio-inline" for="neurotic-2">
+            <input type="radio" name="neurotic" id="neurotic-2" value="2">
+            2
+        </label>
+        <label class="radio-inline" for="neurotic-3">
+            <input type="radio" name="neurotic" id="neurotic-3" value="3">
+            3
+        </label>
+        <label class="radio-inline" for="neurotic-4">
+            <input type="radio" name="neurotic" id="neurotic-4" value="4" checked="checked">
+            4
+        </label>
+        <label class="radio-inline" for="neurotic-5">
+            <input type="radio" name="neurotic" id="neurotic-5" value="5">
+            5
+        </label>
+        <label class="radio-inline" for="neurotic-6">
+            <input type="radio" name="neurotic" id="neurotic-6" value="6">
+            6
+        </label>
+        <label class="radio-inline" for="neurotic-7">
+            <input type="radio" name="neurotic" id="neurotic-7" value="7">
+            7
+        </label>
+        <label class="col-md-4 control-label" for="neurotic">Neurotic</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-md-4">
+        <label class="col-md-4 control-label" for="extraverted">Introverted</label>
+        <label class="radio-inline" for="extraverted-1">
+            <input type="radio" name="extraverted" id="extraverted-1" value="1">
+            1
+        </label>
+        <label class="radio-inline" for="extraverted-2">
+            <input type="radio" name="extraverted" id="extraverted-2" value="2">
+            2
+        </label>
+        <label class="radio-inline" for="extraverted-3">
+            <input type="radio" name="extraverted" id="extraverted-3" value="3">
+            3
+        </label>
+        <label class="radio-inline" for="extraverted-4">
+            <input type="radio" name="extraverted" id="extraverted-4" value="4" checked="checked">
+            4
+        </label>
+        <label class="radio-inline" for="extraverted-5">
+            <input type="radio" name="extraverted" id="extraverted-5" value="5">
+            5
+        </label>
+        <label class="radio-inline" for="extraverted-6">
+            <input type="radio" name="extraverted" id="extraverted-6" value="6">
+            6
+        </label>
+        <label class="radio-inline" for="extraverted-7">
+            <input type="radio" name="extraverted" id="extraverted-7" value="7">
+            7
+        </label>
+        <label class="col-md-4 control-label" for="extraverted">Extraverted</label>
+        </div>
+      </div>
+    </div>
+
+    <div id="page-fashion" style="display:none;">
+      <form class="form-horizontal">
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="fashion-knowledge">How much Fashion Knowledge do you have?</label>
+          <div class="col-md-4">
+            <select id="fashion-knowledge" name="fashion-knowledge" class="form-control">
+              <option value="none">None</option>
+              <option value="basic">Basic</option>
+              <option value="average">Average</option>
+              <option value="high">High</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="style-chosen">Which style is your favorite</label>
+          <div class="col-md-4">
+            <select id="style-chosen" name="style-chosen" class="form-control">
+              <option value="Casual">Casual</option>
+              <option value="Sports">Sports</option>
+              <option value="Formal">Formal</option>
+              <option value="Ethnic">Ethnic</option>
+            </select>
+          </div>
+        </div>
+      </form>
+    </div>
+    </crowd-form>
+
+    <div id="page2.5" class="form-group" style="display:none";>
+        <label class="col-md-4 control-label" for="checkboxes">Choose 10 elements you like</label>
+  <div class="col-md-4">
+    <label class="checkbox-inline" for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="op1">
+      <img id="img0" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op1" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-1">
+      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="op2">
+      <img id="img1" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op2" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-2">
+      <input type="checkbox" name="checkboxes" id="checkboxes-2" value="op3">
+      <img id="img2" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op3" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-3">
+      <input type="checkbox" name="checkboxes" id="checkboxes-3" value="op4">
+      <img id="img3" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op4" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-4">
+      <input type="checkbox" name="checkboxes" id="checkboxes-4" value="op5">
+      <img id="img4" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op5" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-5">
+      <input type="checkbox" name="checkboxes" id="checkboxes-5" value="op6">
+      <img id="img5" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op6" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-6">
+      <input type="checkbox" name="checkboxes" id="checkboxes-6" value="op7">
+      <img id="img6" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op7" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-7">
+      <input type="checkbox" name="checkboxes" id="checkboxes-7" value="op8">
+      <img id="img7" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op8" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-8">
+      <input type="checkbox" name="checkboxes" id="checkboxes-8" value="op9">
+      <img id="img8" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op9" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-9">
+      <input type="checkbox" name="checkboxes" id="checkboxes-9" value="op10">
+      <img id="img9" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op10" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-10">
+      <input type="checkbox" name="checkboxes" id="checkboxes-10" value="op11">
+      <img id="img10" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op11" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-11">
+      <input type="checkbox" name="checkboxes" id="checkboxes-11" value="op12">
+      <img id="img11" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op12" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-12">
+      <input type="checkbox" name="checkboxes" id="checkboxes-12" value="op13">
+      <img id="img12" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op13" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-13">
+      <input type="checkbox" name="checkboxes" id="checkboxes-13" value="op14">
+      <img id="img13" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op14" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-14">
+      <input type="checkbox" name="checkboxes" id="checkboxes-14" value="op15">
+      <img id="img14" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op15" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-15">
+      <input type="checkbox" name="checkboxes" id="checkboxes-15" value="op16">
+      <img id="img15" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op16" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-16">
+      <input type="checkbox" name="checkboxes" id="checkboxes-16" value="op17">
+      <img id="img16" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op17" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-17">
+      <input type="checkbox" name="checkboxes" id="checkboxes-17" value="op18">
+      <img id="img17" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op18" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-18">
+      <input type="checkbox" name="checkboxes" id="checkboxes-18" value="op19">
+      <img id="img18" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op19" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-19">
+      <input type="checkbox" name="checkboxes" id="checkboxes-19" value="op20">
+      <img id="img19" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op20" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-20">
+      <input type="checkbox" name="checkboxes" id="checkboxes-20" value="op21">
+      <img id="img20" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op21" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-21">
+      <input type="checkbox" name="checkboxes" id="checkboxes-21" value="op22">
+      <img id="img21" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op22" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-22">
+      <input type="checkbox" name="checkboxes" id="checkboxes-22" value="op23">
+      <img id="img22" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op23" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-23">
+      <input type="checkbox" name="checkboxes" id="checkboxes-23" value="op24">
+      <img id="img23" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op24" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-24">
+      <input type="checkbox" name="checkboxes" id="checkboxes-24" value="op25">
+      <img id="img24" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op25" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-25">
+      <input type="checkbox" name="checkboxes" id="checkboxes-25" value="op26">
+      <img id="img25" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op26" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-26">
+      <input type="checkbox" name="checkboxes" id="checkboxes-26" value="op27">
+      <img id="img26" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op27" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-27">
+      <input type="checkbox" name="checkboxes" id="checkboxes-27" value="op28">
+      <img id="img27" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op28" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-28">
+      <input type="checkbox" name="checkboxes" id="checkboxes-28" value="op29">
+      <img id="img28" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op29" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-29">
+      <input type="checkbox" name="checkboxes" id="checkboxes-29" value="op30">
+      <img id="img29" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op30" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-30">
+      <input type="checkbox" name="checkboxes" id="checkboxes-30" value="op31">
+      <img id="img30" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op31" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-31">
+      <input type="checkbox" name="checkboxes" id="checkboxes-31" value="op32">
+      <img id="img31" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op32" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-32">
+      <input type="checkbox" name="checkboxes" id="checkboxes-32" value="op33">
+      <img id="img32" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op33" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-33">
+      <input type="checkbox" name="checkboxes" id="checkboxes-33" value="op34">
+      <img id="img33" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op34" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-34">
+      <input type="checkbox" name="checkboxes" id="checkboxes-34" value="op35">
+      <img id="img34" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op35" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-35">
+      <input type="checkbox" name="checkboxes" id="checkboxes-35" value="op36">
+      <img id="img35" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op36" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-36">
+      <input type="checkbox" name="checkboxes" id="checkboxes-36" value="op37">
+      <img id="img36" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op37" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-37">
+      <input type="checkbox" name="checkboxes" id="checkboxes-37" value="op38">
+      <img id="img37" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op38" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-38">
+      <input type="checkbox" name="checkboxes" id="checkboxes-38" value="op39">
+      <img id="img38" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op39" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-39">
+      <input type="checkbox" name="checkboxes" id="checkboxes-39" value="op40">
+      <img id="img39" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op40" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-40">
+      <input type="checkbox" name="checkboxes" id="checkboxes-40" value="op41">
+      <img id="img40" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op41" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-41">
+      <input type="checkbox" name="checkboxes" id="checkboxes-41" value="op42">
+      <img id="img41" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op42" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-42">
+      <input type="checkbox" name="checkboxes" id="checkboxes-42" value="op43">
+      <img id="img42" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op43" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-43">
+      <input type="checkbox" name="checkboxes" id="checkboxes-43" value="op44">
+      <img id="img43" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op44" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-44">
+      <input type="checkbox" name="checkboxes" id="checkboxes-44" value="op45">
+      <img id="img44" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op45" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-45">
+      <input type="checkbox" name="checkboxes" id="checkboxes-45" value="op46">
+      <img id="img45" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op46" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-46">
+      <input type="checkbox" name="checkboxes" id="checkboxes-46" value="op47">
+      <img id="img46" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op47" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-47">
+      <input type="checkbox" name="checkboxes" id="checkboxes-47" value="op48">
+      <img id="img47" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op48" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-48">
+      <input type="checkbox" name="checkboxes" id="checkboxes-48" value="op49">
+      <img id="img48" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op49" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-49">
+      <input type="checkbox" name="checkboxes" id="checkboxes-49" value="op50">
+      <img id="img49" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op50" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-50">
+      <input type="checkbox" name="checkboxes" id="checkboxes-50" value="op51">
+      <img id="img50" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op51" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-51">
+      <input type="checkbox" name="checkboxes" id="checkboxes-51" value="op52">
+      <img id="img51" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op52" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-52">
+      <input type="checkbox" name="checkboxes" id="checkboxes-52" value="op53">
+      <img id="img52" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op53" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-53">
+      <input type="checkbox" name="checkboxes" id="checkboxes-53" value="op54">
+      <img id="img53" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op54" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-54">
+      <input type="checkbox" name="checkboxes" id="checkboxes-54" value="op55">
+      <img id="img54" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op55" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-55">
+      <input type="checkbox" name="checkboxes" id="checkboxes-55" value="op56">
+      <img id="img55" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op56" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-56">
+      <input type="checkbox" name="checkboxes" id="checkboxes-56" value="op57">
+      <img id="img56" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op57" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-57">
+      <input type="checkbox" name="checkboxes" id="checkboxes-57" value="op58">
+      <img id="img57" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op58" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-58">
+      <input type="checkbox" name="checkboxes" id="checkboxes-58" value="op59">
+      <img id="img58" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op59" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-59">
+      <input type="checkbox" name="checkboxes" id="checkboxes-59" value="op60">
+      <img id="img59" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op60" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-60">
+      <input type="checkbox" name="checkboxes" id="checkboxes-60" value="op61">
+      <img id="img60" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op61" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-61">
+      <input type="checkbox" name="checkboxes" id="checkboxes-61" value="op62">
+      <img id="img61" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op62" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-62">
+      <input type="checkbox" name="checkboxes" id="checkboxes-62" value="op63">
+      <img id="img62" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op63" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-63">
+      <input type="checkbox" name="checkboxes" id="checkboxes-63" value="op64">
+      <img id="img63" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op64" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-64">
+      <input type="checkbox" name="checkboxes" id="checkboxes-64" value="op65">
+      <img id="img64" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op65" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-65">
+      <input type="checkbox" name="checkboxes" id="checkboxes-65" value="op66">
+      <img id="img65" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op66" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-66">
+      <input type="checkbox" name="checkboxes" id="checkboxes-66" value="op67">
+      <img id="img66" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op67" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-67">
+      <input type="checkbox" name="checkboxes" id="checkboxes-67" value="op68">
+      <img id="img67" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op68" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-68">
+      <input type="checkbox" name="checkboxes" id="checkboxes-68" value="op69">
+      <img id="img68" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op69" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-69">
+      <input type="checkbox" name="checkboxes" id="checkboxes-69" value="op70">
+      <img id="img69" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op70" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-70">
+      <input type="checkbox" name="checkboxes" id="checkboxes-70" value="op71">
+      <img id="img70" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op71" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-71">
+      <input type="checkbox" name="checkboxes" id="checkboxes-71" value="op72">
+      <img id="img71" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op72" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-72">
+      <input type="checkbox" name="checkboxes" id="checkboxes-72" value="op73">
+      <img id="img72" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op73" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-73">
+      <input type="checkbox" name="checkboxes" id="checkboxes-73" value="op74">
+      <img id="img73" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op74" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-74">
+      <input type="checkbox" name="checkboxes" id="checkboxes-74" value="op75">
+      <img id="img74" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op75" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-75">
+      <input type="checkbox" name="checkboxes" id="checkboxes-75" value="op76">
+      <img id="img75" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op76" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-76">
+      <input type="checkbox" name="checkboxes" id="checkboxes-76" value="op77">
+      <img id="img76" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op77" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-77">
+      <input type="checkbox" name="checkboxes" id="checkboxes-77" value="op78">
+      <img id="img77" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op78" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-78">
+      <input type="checkbox" name="checkboxes" id="checkboxes-78" value="op79">
+      <img id="img78" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op79" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-79">
+      <input type="checkbox" name="checkboxes" id="checkboxes-79" value="op80">
+      <img id="img79" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op80" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-80">
+      <input type="checkbox" name="checkboxes" id="checkboxes-80" value="op81">
+      <img id="img80" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op81" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-81">
+      <input type="checkbox" name="checkboxes" id="checkboxes-81" value="op82">
+      <img id="img81" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op82" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-82">
+      <input type="checkbox" name="checkboxes" id="checkboxes-82" value="op83">
+      <img id="img82" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op83" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-83">
+      <input type="checkbox" name="checkboxes" id="checkboxes-83" value="op84">
+      <img id="img83" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op84" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-84">
+      <input type="checkbox" name="checkboxes" id="checkboxes-84" value="op85">
+      <img id="img84" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op85" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-85">
+      <input type="checkbox" name="checkboxes" id="checkboxes-85" value="op86">
+      <img id="img85" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op86" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-86">
+      <input type="checkbox" name="checkboxes" id="checkboxes-86" value="op87">
+      <img id="img86" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op87" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-87">
+      <input type="checkbox" name="checkboxes" id="checkboxes-87" value="op88">
+      <img id="img87" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op88" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-88">
+      <input type="checkbox" name="checkboxes" id="checkboxes-88" value="op89">
+      <img id="img88" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op89" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-89">
+      <input type="checkbox" name="checkboxes" id="checkboxes-89" value="op90">
+      <img id="img89" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op90" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-90">
+      <input type="checkbox" name="checkboxes" id="checkboxes-90" value="op91">
+      <img id="img90" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op91" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-91">
+      <input type="checkbox" name="checkboxes" id="checkboxes-91" value="op92">
+      <img id="img91" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op92" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-92">
+      <input type="checkbox" name="checkboxes" id="checkboxes-92" value="op93">
+      <img id="img92" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op93" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-93">
+      <input type="checkbox" name="checkboxes" id="checkboxes-93" value="op94">
+      <img id="img93" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op94" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-94">
+      <input type="checkbox" name="checkboxes" id="checkboxes-94" value="op95">
+      <img id="img94" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op95" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-95">
+      <input type="checkbox" name="checkboxes" id="checkboxes-95" value="op96">
+      <img id="img95" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op96" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-96">
+      <input type="checkbox" name="checkboxes" id="checkboxes-96" value="op97">
+      <img id="img96" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op97" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-97">
+      <input type="checkbox" name="checkboxes" id="checkboxes-97" value="op98">
+      <img id="img97" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op98" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-98">
+      <input type="checkbox" name="checkboxes" id="checkboxes-98" value="op99">
+      <img id="img98" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op99" height="100">
+    </label>
+    <label class="checkbox-inline" for="checkboxes-99">
+      <input type="checkbox" name="checkboxes" id="checkboxes-99" value="op100">
+      <img id="img99" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" alt="op100" height="100">
+    </label>
+  </div>
+      </div>
+
+    <div id="page3" class="form-group" style="display:none;">
+      <label class="col-md-4 control-label" for="idrandom">Select the bottom you like most</label>
+      <div>
+        <img id="img1-1" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="200"><br>
+        <img id="img2-1" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="200"><br>
+        <img id="img3-1" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="200"><br>
+        <img id="img4-1" src="https://image.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-600w-1037719192.jpg" height="200"><br>
+      </div>
+      <div class="col-md-4">
+        <select id="question1" class="form-control">
+          <option id="op1-1" value="op1-1">Option 1</option>
+          <option id="op2-1" value="op2-1">Option 2</option>
+          <option id="op3-1" value="op3-1">Option 3</option>
+          <option id="op4-1" value="op4-1">Option 4</option>
+        </select>
+      </div>
+    </div>
+
+    <div id ="button1">
+      <button onClick={hide("page1");hide("button1");unhide("page2");unhide("button2");}>
+        Start
+      </button>
+    </div>
+   
+
+    <div id="button2" style="display:none;">
+      <button onClick={hide("page2");hide("button2");unhide("page1");unhide("button1");}>
+        Back
+      </button>
+      <button id="continue-personality" style="display:none;" onClick={hide("page2");hide("button2");unhide("page-personality");unhide("button-personality");}>
+        Continue
+      </button>
+    </div>
+
+    <div id="button-personality" style="display:none;">
+      <button onClick={hide("page-personality");hide("button-personality");unhide("page2");unhide("button2");}>
+        Back
+      </button>
+      <button onClick={hide("page-personality");hide("button-personality");unhide("page-fashion");unhide("button-fashion")}>
+        Continue
+      </button>
+    </div>
+
+    <!-- added -->
+    <div id="button2.5" style="display:none;">
+      <button onClick={hide("page2.5");hide("button2.5");unhide("page-fashion");unhide("button-fashion");}>
+        Back
+      </button>
+      <button id="buttoncontinue" style="display:none;" onClick={hide("page2.5");hide("button2.5");unhide("page5");unhide("button5");button_1()}>
+        Continue
+      </button>
+    </div>
+
+    <div id="button-fashion" style="display:none;">
+      <button onClick={hide("page-fashion");hide("button-fashion");unhide("page-personality");unhide("button-personality");}>
+        Back
+      </button>
+      <button onClick={hide("page-fashion");hide("button-fashion");unhide("page2.5");unhide("button2.5");button_0()}>
+        Continue
+      </button>
+    </div>
+    <!--  -->
+
+
+    <div id="button3" style="display:none;">
+      <button onClick={hide("page3");hide("button3");unhide("page2");unhide("button2")}>
+        Back
+      </button>
+      <button onClick={hide("page3");hide("button3");unhide("page4");unhide("button4");button_2()}>
+        Continue
+      </button>
+    </div>
+    <div id="button4" style="display:none;">
+      <button onClick={hide("page4");hide("button4");unhide("page3");unhide("button3")}>
+        Back
+      </button>
+    <div id="button5" style="display:none;">
+      <button onClick={hide("page5");hide("button4");unhide("page2.5");unhide("button2.5")}>
+        Back
+      </button>
+    </div>
+    <script>
+
+     // 21379, Men, Apparel, Bottomwear, Track Pants, Black, Fall, 2011, Casual, Manchester United Men Solid Black Track Pants, 21379.jpg, 
+      $('input[name="checkboxes"]').on('change', function() {
+        if($('input[name="checkboxes"]:checked').length > 10) {
+          this.checked = false;
+        }
+      });
+
+      $('input[name="checkboxes"]').on('change', function() {
+        if($('input[name="checkboxes"]:checked').length == 10) {
+          unhide("buttoncontinue");
+        }
+        else{
+          hide("buttoncontinue");
+        }
+      });
+
+      $('input[name="nationality"]').on('change', function() {
+        if($('input[name="nationality"]').value == "") {
+          hide("continue-personality");
+        }
+        else{
+          unhide("continue-personality");
+        }
+      });
+      /*
+      $(document).ready(function() {
+          //$('#load_data').click(function(){
+          $.ajax({
+            type: "GET",
+            url: "merged_crop.csv",
+            dataType: "text",
+            success: function(data) {
+              //global_query(data, "MaleTEST", "Black", "Fall", "Casual", "Bottomwear", 10);
+               
+              //global_query(data, "Male", null, "Fall", null, "Bottomwear", 20);
+              global_query(data, gender = "Male", color = "Black", season = "Fall", usage = null, sub_category = "Topwear" , result_number = 10);
+
+            }
+          });
+        });
+*/
+      //global_query(data, "men", "red", "summer", "Casual", "Bottom", 10);
+      //url = "https://1drv.ms/x/s!Aqv0MjtG2dBPhvY7Y-fRBbUgpFwKFw?e=ianu6V"
+      url = "merged_crop.csv"
+
+
+      function button_0(){
+        $(document).ready(function() {
+          //$('#load_data').click(function(){
+          $.ajax({
+            type: "GET",
+            url: url ,
+            dataType: "text",
+            success: function(data) {
+              global_query(data, "grid", document.getElementById("gender").value, color = null, season = null, usage = document.getElementById("style-chosen").value, sub_category = ["Topwear", "Bottomwear"], result_number = 100);
+            }
+          });
+        });
+      }
+
+      function button_1(){
+        $(document).ready(function() {
+          //$('#load_data').click(function(){
+          $.ajax({
+            type: "GET",
+            url: url,
+            dataType: "text",
+            success: function(data) {
+              //first_query(data, document.getElementById("gender").value, 4);
+              retrieve_data(data);
+              global_query(data, "list", document.getElementById("gender").value, color = null, season = null, usage = "favourite", sub_category = "Topwear", result_number = 5);
+              global_query(data, "list", document.getElementById("gender").value, color = null, season = null, usage = "favourite", sub_category = "Bottomwear", result_number = 5);
+              global_query(data, "list", document.getElementById("gender").value, color = "favourite", season = null, usage = null, sub_category = "Topwear", result_number = 5);
+              global_query(data, "list", document.getElementById("gender").value, color = "favourite", season = null, usage = null, sub_category = "Bottomwear", result_number = 5);
+              global_query(data, "list", document.getElementById("gender").value, color = null, season = "favourite", usage = null, sub_category = "Topwear", result_number = 5);
+              global_query(data, "list", document.getElementById("gender").value, color = null, season = "favourite", usage = null, sub_category = "Bottomwear", result_number = 5);
+              global_query(data, "list", document.getElementById("gender").value, color = "favourite", season = "favourite", usage = "favourite", sub_category = "Topwear", result_number = 5);
+              global_query(data, "list", document.getElementById("gender").value, color = "favourite", season = "favourite", usage = "favourite", sub_category = "Bottomwear", result_number = 5);
+            }
+          });
+        });
+      }
+      function button_2(){
+        $(document).ready(function() {
+          //$('#load_data').click(function(){
+          $.ajax({
+            type: "GET",
+            url: url,
+            dataType: "text",
+            success: function(data) {
+              second_query(data, document.getElementById("gender").value, 4);
+            }
+          });
+        });
+      }
+      function hide(element) {
+        document.getElementById(element).style.display = 'none';
+      }
+      function unhide(element) {
+        document.getElementById(element).style.display = 'block';
+      }
+
+   </script>
+
+  </body>
+</html>
